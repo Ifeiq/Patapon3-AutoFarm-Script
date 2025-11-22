@@ -19,6 +19,7 @@ images = [
     "images/status.png",
     "images/loading.png",
     "images/world.png",
+    "images/idk.png"
     "move/-1.png",
     "move/-2.png",
     "move/-3.png",
@@ -276,6 +277,14 @@ while True:
             tap(buttons["x"])
             time.sleep(1)
             tap(buttons["up"])
+            time.sleep(1)
+            tap(buttons["x"])
+            time.sleep(1)
+            tap(buttons["up"])
+            time.sleep(1)
+            tap(buttons["x"])
+        case "images/idk.png":
+            tap(buttons["down"])
             time.sleep(1)
             tap(buttons["x"])
             time.sleep(1)
